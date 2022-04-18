@@ -1,0 +1,19 @@
+.Title {
+    color:burlywood;
+    border:30px;
+    border-color:green;
+    border-radius:5px;
+    border-width:20px;
+    @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+    align-items: center;
+}
+
+ul {
+    color:beige;
+}
+
+html {
+    background-color:rgb(59, 58, 54);
+}
+
+
