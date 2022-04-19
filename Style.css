@@ -1,20 +1,75 @@
-.Title {
-    color:burlywood;
-    border:30px;
-    border-color:green;
-    border-radius:5px;
-    border-width:20px;
-    @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
-    align-items: center;
-    text-align:center;
+
+.About {
+    color: beige;
+    padding-left: 23.5cm;
+    padding-top: 0.5cm;
+    font-size:200%;
 }
 
-ul {
-    color:beige;
+.Reverse {
+    padding-top: 23.8cm;
+    padding-left: 1cm;
 }
 
 html {
     background-color:rgb(59, 58, 54);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+}
+
+body{
+  font-family: Arial;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke:bisque;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke:burlywood;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke:sienna;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke:beige;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
 }
 
 
