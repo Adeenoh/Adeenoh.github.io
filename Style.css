@@ -1,13 +1,35 @@
 
 .About {
     color: beige;
-    padding-left: 23.5cm;
-    padding-top: 0.5cm;
-    font-size:200%;
+    font-size:300%;
+    position: fixed;
+    top: 56%;
+    left: 52.5%;
+    right: 2%;
+    margin-top: -250px;
+    margin-left: -175px;
+    animation: fadeIn linear 4s;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity:0%;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+.Explore {
+    text-align: right;
+    margin-top: 500px;
+    padding-right: 3cm;
+    color: #FDB731;
 }
 
 .Reverse {
-    padding-top: 23.8cm;
+    padding-top: 23.6cm;
     padding-left: 1cm;
 }
 
@@ -71,5 +93,32 @@ svg {
 @keyframes stroke-offset{
 	100% {stroke-dashoffset: -35%;}
 }
+.ridge{
+    position: absolute;
+    padding:30px;
+    text-align: center;
+}
 
+.ContactMe {
+    margin-right: -0.51%;
+    font-size: 200%;
+    padding-bottom:-50px;
+}
 
+.Icon1 {
+    margin-right: 10px;
+}
+
+.Icon2 {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.Icon3 {
+    margin-left: 10px;
+}
+
+.Icons {
+    padding-top:-30px;
+    margin-top:-20px;
+}
