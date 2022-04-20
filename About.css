@@ -1,0 +1,40 @@
+.About {
+    color: beige;
+    font-size:300%;
+    position: absolute;
+    top: 56%;
+    left: 52.5%;
+    right: 2%;
+    margin-top: -12%;
+    margin-left: -25%;
+    margin-right: 23.8%;
+    animation: fadeIn linear 4s;
+}
+
+.Reverse {
+    margin-top: 60%;
+    margin-left: 0.8%;
+}
+
+html {
+    background-color:rgb(59, 58, 54);
+}
+
+.ridge {
+    padding: 30px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity:0%;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@media only screen and (max-width: 896px) {
+    .Reverse {
+        padding-top: 100px;
+    }
+}
