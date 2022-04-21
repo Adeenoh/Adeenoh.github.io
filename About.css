@@ -107,12 +107,14 @@ html {
         margin-left: -25%;
         margin-right: 23.8%;
         animation: fadeIn linear 4s;
+        position: null;
     }
 
     .Test {
         font-size: 80%;
         right: -63%;
         top: -10%;
+        position: null;
     }
 }
 
