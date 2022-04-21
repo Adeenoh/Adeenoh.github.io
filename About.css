@@ -100,11 +100,10 @@ html {
     .About {
         color: beige;
         font-size:200%;
-        position: absolute;
         bottom: 0%;
         left: 23.625%;
         right: 2%;
-        margin-top: -18%;
+        margin-top: -15%;
         margin-left: -25%;
         margin-right: 23.8%;
         animation: fadeIn linear 4s;
