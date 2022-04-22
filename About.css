@@ -95,7 +95,7 @@ html {
     .Reverse {
         padding-top: 193.5%;
         padding-left: 31%;
-        position: fixed;
+        
     }
 
     .About {
@@ -115,7 +115,7 @@ html {
     .Test {
         font-size: 80%;
         right: -63%;
-        top: -10%;
+        top: -15%;
         
     }
 }
