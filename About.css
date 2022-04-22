@@ -93,8 +93,9 @@ html {
 
 @media only screen and (max-width: 896px) {
     .Reverse {
-        padding-top: 202%;
-        text-align: center;
+        padding-top: 193.5%;
+        padding-left: 31%;
+        position: fixed;
     }
 
     .About {
@@ -107,14 +108,15 @@ html {
         margin-left: -25%;
         margin-right: 23.8%;
         animation: fadeIn linear 4s;
-        position: null;
+        
+        
     }
 
     .Test {
         font-size: 80%;
         right: -63%;
         top: -10%;
-        position: null;
+        
     }
 }
 
