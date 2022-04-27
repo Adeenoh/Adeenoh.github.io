@@ -1,17 +1,21 @@
 
+.Test {
+    font-size: x-large;
+}
+
 svg {
     display: block;
     font: 10.5em 'Montserrat';
     width: 960px;
     height: 300px;
-    margin-left: 22%;
+    margin:auto;
 }
 
 .text-copy {
     fill: none;
     stroke: white;
     stroke-dasharray: 6% 29%;
-    stroke-width: 5px;
+    stroke-width: 3px;
     stroke-dashoffset: 0%;
     animation: stroke-offset 5.5s infinite linear;
 }
@@ -57,4 +61,17 @@ html {
 
 .ridge {
     padding: 30px;
+    text-align:center;
+}
+
+.WholeResume {
+    margin:auto;
+    width:50%;
+}
+
+@media only screen and (max-width: 896px) {
+    .WholeResume {
+        margin:auto;
+        width:50%;
+    }
 }
